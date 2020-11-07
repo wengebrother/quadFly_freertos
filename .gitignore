@@ -1,0 +1,189 @@
+﻿# 文件前加!则是反规则，将指定的文件添加到git中
+
+# =========================
+# 开发
+# =========================
+# 忽略打包文件
+*.zip
+*.tar
+*.tar.gz
+
+# C语言
+
+# 编译文件
+*.o
+*.d
+*.ko
+*.obj
+*.elf
+*.dep
+
+# 预编译头文件
+*.gch
+*.pch
+
+# 静态链接库
+*.lib
+*.a
+*.la
+*.lo
+
+# 动态链接库
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# 可执行文件
+*.hex
+*.bin
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.axf
+
+# List/MAP文件
+*.map
+*.lst
+
+# =========================
+# 开发工具/VS Code
+# =========================
+*.VC.db
+.vscode
+
+# =========================
+# 开发工具/Keil
+# =========================
+*.TMP
+*.d
+*.crf
+*.htm
+*.lnp
+*.dep
+JLinkLog.txt
+*.uvguix.*
+*.uvgui.*
+
+# =========================
+# 开发工具/Eclipse
+# =========================
+.metadata
+.recommenders
+.loadpath
+.settings/
+local.properties
+*.swp
+*.bak
+*.tmp
+
+# =========================
+# 开发工具/Source Insight
+# =========================
+*.SearchResults  # search results
+*.WK3            # workspace
+
+# =========================
+# 开发工具/Matlab
+# =========================
+*.asv
+*.m~
+*.mex*
+slprj/
+octave-workspace
+ 
+
+# =========================
+# 操作系统相关文件/Windows
+# =========================
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# 操作系统相关文件/Linux
+# =========================
+*~
+
+.fuse_hidden*
+.directory
+.Trash-*
+
+
+# =========================
+# 操作系统相关文件/OSX
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+
+# =========================
+# Matlab
+# =========================
+*.asv
+*.m~
+*.mex*
+/slprj/*
+/.SimulinkProject/*
+octave-workspace 
+*.mat
+*.dmr
+
+
+*.mxproject
+MDK-ARM/Master.uvguix*
+*.dbgconf
+*.scvd
+*.txt
+*.ini
+*.Administrator
+*.iex
+*.axf
+*.bin
+*.htm
+*.lnp
+*.map
+*.dep
+*.crf
+*.d
+*.o
+*.lst
+*.orig
+*.Scr
+**/*.json
+
+*.m
+*.75696
