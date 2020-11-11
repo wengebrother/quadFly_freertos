@@ -80,7 +80,7 @@ void Test2_Task(void* pvParameters)
 
 }
 
-void createTask(void)
+void create_TestTask(void)
 {
 
    test1TaskPass=xTaskCreate((TaskFunction_t )Test1_Task,

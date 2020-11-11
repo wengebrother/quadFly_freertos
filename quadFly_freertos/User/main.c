@@ -132,7 +132,7 @@ static void StartTask(void* pvParameters)  //任务函数
 	
 	
 	
-			 //createTask();//创建测试任务
+			 //create_TestTask();//创建测试任务
 	
 	     createSensorTask();//创建传感器任务
 	     //createAHRS_Task();//创建姿态解算任务
